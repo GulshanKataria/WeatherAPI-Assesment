@@ -20,7 +20,7 @@ public class WeatherController {
     private final OkHttpClient httpClient = new OkHttpClient();
     private final String RAPID_API_URL = "https://weatherapi-com.p.rapidapi.com/forecast.json";
     private final String API_KEY = "275180157emsh42a28c17836e87ep102545jsn60ae89570c9e";
-    private final String RAPID_API_URL_HOURLY = "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly";
+    private final String RAPID_API_URL_HOURLY = "https://forecast9.p.rapidapi.com/rapidapi/forecast/{city}/hourly/";
     
     private static final String RAPID_API_KEY = "54a8e26f0emsh2c9f97728564f51p1354b4jsn9e71594af6d9";
     
